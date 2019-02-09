@@ -1,4 +1,4 @@
-
+import java.util.List;
 
 public class SoldState implements State {
  
@@ -8,11 +8,11 @@ public class SoldState implements State {
         this.gumballMachine = gumballMachine;
     }
        
-	public void insertQuarter() {
+	public void insertCoins(List<Coin> insertedCoins) {
 		System.out.println("Please wait, we're already giving you a gumball");
 	}
  
-	public void ejectQuarter() {
+	public void ejectCoins() {
 		System.out.println("Sorry, you already turned the crank");
 	}
  
@@ -20,10 +20,11 @@ public class SoldState implements State {
 		System.out.println("Turning twice doesn't get you another gumball!");
 	}
  
-	public void dispense() {
-		gumballMachine.releaseBall();
+	
+	public void dispense(int gumballsReleased) {
+		gumballMachine.releaseBall(gumballsReleased);
 		if (gumballMachine.getCount() > 0) {
-			gumballMachine.setState(gumballMachine.getNoQuarterState());
+			gumballMachine.setState(gumballMachine.getNoCoinState());
 		} else {
 			System.out.println("Oops, out of gumballs!");
 			gumballMachine.setState(gumballMachine.getSoldOutState());

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=NoCoinState
+comment1.params=gumballMachine
+comment1.target=NoCoinState(GumballMachine)
+comment2.params=insertedCoins
+comment2.target=void\ insertCoins(java.util.List)
+comment3.params=
+comment3.target=void\ ejectCoins()
+comment4.params=
+comment4.target=void\ turnCrank()
+comment5.params=gumballs
+comment5.target=void\ dispense(int)
+comment6.params=coins
+comment6.target=boolean\ validateCoins(java.util.List)
+comment7.params=coins
+comment7.target=boolean\ checkIfCoinsAreAcceptable(java.util.List)
+comment8.params=coins
+comment8.target=boolean\ checkIfCoinsAreSufficienct(java.util.List)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

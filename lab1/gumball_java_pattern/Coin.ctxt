@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Coin
+comment0.text=\n\ Coin\ value\ depends\ on\ its\ type\n\ Deepika\n\ 02/06/2019\n
+comment1.params=
+comment1.target=int\ getValue()
+comment1.text=\n\ gets\ it\ value\ based\ on\ coin\ type\n\ @return\ \ \ value\ of\ coin\n
+numComments=2

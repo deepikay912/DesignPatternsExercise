@@ -1,4 +1,4 @@
-
+import java.util.List;
 
 public class SoldOutState implements State {
     GumballMachine gumballMachine;
@@ -7,11 +7,11 @@ public class SoldOutState implements State {
         this.gumballMachine = gumballMachine;
     }
  
-	public void insertQuarter() {
+	public void insertCoins(List<Coin> insertedCoins) {
 		System.out.println("You can't insert a quarter, the machine is sold out");
 	}
  
-	public void ejectQuarter() {
+	public void ejectCoins() {
 		System.out.println("You can't eject, you haven't inserted a quarter yet");
 	}
  
@@ -19,7 +19,7 @@ public class SoldOutState implements State {
 		System.out.println("You turned, but there are no gumballs");
 	}
  
-	public void dispense() {
+	public void dispense(int gumballs) {
 		System.out.println("No gumball dispensed");
 	}
  
