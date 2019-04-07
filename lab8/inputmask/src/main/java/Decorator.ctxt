@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Decorator
+comment1.params=c
+comment1.target=Decorator(IDisplayComponent)
+comment2.params=
+comment2.target=java.lang.String\ display()
+comment3.params=c
+comment3.target=void\ addSubComponent(IDisplayComponent)
+comment4.params=var1\ var2
+comment4.target=void\ key(java.lang.String,\ int)
+comment5.params=var1
+comment5.target=void\ setNext(IKeyEventHandler)
+numComments=6

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CreditCardNumDecorator
+comment1.params=c
+comment1.target=CreditCardNumDecorator(IDisplayComponent)
+comment2.params=c
+comment2.target=java.lang.String\ display(IDisplayComponent)
+comment3.params=creditCardNum
+comment3.target=java.lang.String\ decorate(java.lang.String)
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Screen
+comment0.text=(c)\ Copyright\ 2018\ Paul\ Nguyen.\ All\ Rights\ Reserved
+comment1.params=
+comment1.target=Screen()
+comment2.params=ch\ cnt
+comment2.target=void\ key(java.lang.String,\ int)
+comment3.params=c
+comment3.target=void\ addSubComponent(IDisplayComponent)
+comment4.params=
+comment4.target=java.lang.String\ display()
+comment5.params=
+comment5.target=java.lang.String\ name()
+numComments=6

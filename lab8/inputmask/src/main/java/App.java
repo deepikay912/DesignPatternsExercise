@@ -8,9 +8,9 @@ package inputmask.src.main.java;
 public class App {
 
     private Screen screen;
-    private CreditCardNum num;
-    private CreditCardExp exp;
-    private CreditCardCVC cvc;
+    private IDisplayComponent num;
+    private IDisplayComponent exp;
+    private IDisplayComponent cvc;
     private int count;
 
     public App() {

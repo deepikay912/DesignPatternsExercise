@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=IKeyEventHandler
+comment0.text=(c)\ Copyright\ 2018\ Paul\ Nguyen.\ All\ Rights\ Reserved
+comment1.params=ch\ cnt
+comment1.target=void\ key(java.lang.String,\ int)
+comment2.params=next
+comment2.target=void\ setNext(IKeyEventHandler)
+numComments=3

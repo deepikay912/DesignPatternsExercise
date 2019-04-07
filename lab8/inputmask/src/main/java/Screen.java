@@ -1,4 +1,5 @@
 package inputmask.src.main.java;
+import java.util.*;
 
 /* (c) Copyright 2018 Paul Nguyen. All Rights Reserved */
 
