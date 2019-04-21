@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CoffeeMaker
+comment1.params=addons1
+comment1.target=CoffeeMaker(java.util.function.Function[])
+comment2.params=coffee\ addons1
+comment2.target=Coffee\ orderCoffee(Coffee,\ java.util.function.Function[])
+numComments=3

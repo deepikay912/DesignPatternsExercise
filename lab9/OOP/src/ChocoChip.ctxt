@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ChocoChip
+comment1.params=coffee
+comment1.target=ChocoChip(Coffee)
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment3.params=
+comment3.target=int\ getPrice()
+numComments=4

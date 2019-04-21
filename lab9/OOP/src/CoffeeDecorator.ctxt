@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CoffeeDecorator
+comment1.params=coffee
+comment1.target=CoffeeDecorator(Coffee)
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+numComments=3
